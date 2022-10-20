@@ -18,7 +18,7 @@ jobs:
     - name: Set Web App ACR authentication
       uses: Azure/appservice-settings@v1
       with:
-       app-name: 'node-rnc'
+       app-name: 'web-geba'
        app-settings-json: |
          [
              {
