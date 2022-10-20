@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'web-geba'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_553AB103AA1E4EFCAA548F9AE19D3FF3 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DA6CEF28855C4F41AD14F88FF9FAF504 }}
           package: .
