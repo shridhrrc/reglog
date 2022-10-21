@@ -8,7 +8,7 @@ var mongoose = require('mongoose');
 var session = require('express-session');
 var MongoStore = require('connect-mongo')(session);
 
-mongoose.connect('mongodb://admin:admin@10.0.1.6/test', {
+mongoose.connect('mongodb://admin:admin@172.16.2.4/sectest', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }, (err) => {
