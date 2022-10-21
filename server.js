@@ -21,7 +21,7 @@ mongoose.connect('mongodb://admin:admin@10.0.2.4
 });
 
 var db = mongoose.connection;
-db.on('error', console.error.bind(console, 'connection error:'));
+db.on('error', console.error.bind(console, 'connection error.:'));
 db.once('open', function () {
 });
 
