@@ -13,7 +13,7 @@ mongoose.connect('mongodb://admin:admin@172.16.2.4/sectest', {
   useUnifiedTopology: true
 }, (err) => {
   if (!err) {
-    console.log('MongoDB Connection Succeeded');
+    console.log('MongoDB Connection Succeeded.');
   } else {
     console.log('Error in DB connection : ' + err);
   }
